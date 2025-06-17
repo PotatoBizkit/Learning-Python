@@ -6,4 +6,4 @@ for i in range(4):
 if (num_lst[0] == num_lst[1] == num_lst[2] == num_lst[3]):
     print("The numbers are equal")
 else:
-    print("The greatest number is", maxnum)
+    print("The greatest number is", max(num_lst))
